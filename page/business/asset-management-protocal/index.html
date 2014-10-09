@@ -1,0 +1,57 @@
+<div class="navbar">
+    <div class="navbar-inner">
+        <div class="left">
+            <a href="#" class="link icon-only back">
+            <i class="icon icon-back"></i>
+            </a>
+        </div>
+        <div class="center sliding">资管协议</div>
+    </div>
+</div>
+<div class="pages navbar-through">
+    <div data-page="protocal" class="page">
+        <form data-search-list=".list-block-search" data-search-in=".item-title" class="searchbar">
+            <div class="searchbar-input">
+                <input type="search" placeholder="请输资管产品名称">
+                <a href="#" class="searchbar-clear"></a>
+            </div>
+            <a href="#" class="searchbar-cancel">取消</a>
+        </form>
+        
+        <!-- 搜索条 -->
+        <div class="searchbar-overlay"></div>
+        <div class="page-content protocal-page">
+            <!-- 没有此内容 -->
+            <div class="content-block searchbar-not-found">
+                <div class="content-block-inner">没有该项</div>
+            </div>
+         
+            
+            <!-- 基金列表模板 -->
+            <script id="protocalTemplate" type="text/template">
+            <ul>
+                {{#each protocalList}}
+                <li class="border">
+                    <label class="label-checkbox item-content">
+
+                    <div class="item-inner">
+                        <div class="item-title">{{dict_prompt}}</div>
+                    </div>
+                    <input type="checkbox" name="my-checkbox" value="{{subentry}}">
+                    <div class="item-media">
+                        <i class="icon icon-form-checkbox"></i>
+                    </div>
+                    </label>
+                </li>
+                {{/each}}
+            </ul>
+            </script>
+            <!-- 基金列表容器 -->
+            <div class="protocal list-block list-block-search searchbar-found">
+            </div>
+            <div class="content-block" style="position:relative">
+                <a class="button button-big button-fill sign-protocal-button" href="page/business/asset-management-protocal/agreement.html">开通</a>
+            </div>
+        </div>
+    </div>
+</div>

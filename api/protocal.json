@@ -1,0 +1,480 @@
+{
+    "error_no": 0,
+    "protocalList": [{
+        "branch_no": "0",
+        "subentry": "001",
+        "memo": "长盛基金",
+        "dict_prompt": "长盛基金",
+        "dict_entry": "1003"
+    },
+    {
+        "branch_no": "0",
+        "subentry": "002",
+        "memo": "博时基金",
+        "dict_prompt": "博时基金",
+        "dict_entry": "1003"
+    },
+    {
+        "branch_no": "0",
+        "subentry": "003",
+        "memo": "华夏基金",
+        "dict_prompt": "华夏基金",
+        "dict_entry": "1003"
+    },
+    {
+        "branch_no": "0",
+        "subentry": "004",
+        "memo": "国泰基金",
+        "dict_prompt": "国泰基金",
+        "dict_entry": "1003"
+    },
+    {
+        "branch_no": "0",
+        "subentry": "005",
+        "memo": "鹏华基金",
+        "dict_prompt": "鹏华基金",
+        "dict_entry": "1003"
+    },
+    {
+        "branch_no": "0",
+        "subentry": "006",
+        "memo": "融通基金",
+        "dict_prompt": "融通基金",
+        "dict_entry": "1003"
+    },
+    {
+        "branch_no": "0",
+        "subentry": "007",
+        "memo": "华安基金",
+        "dict_prompt": "华安基金",
+        "dict_entry": "1003"
+    },
+    {
+        "branch_no": "0",
+        "subentry": "008",
+        "memo": "富国基金",
+        "dict_prompt": "富国基金",
+        "dict_entry": "1003"
+    },
+    {
+        "branch_no": "0",
+        "subentry": "009",
+        "memo": "大成基金",
+        "dict_prompt": "大成基金",
+        "dict_entry": "1003"
+    },
+    {
+        "branch_no": "0",
+        "subentry": "010",
+        "memo": "易方达",
+        "dict_prompt": "易方达",
+        "dict_entry": "1003"
+    },
+    {
+        "branch_no": "0",
+        "subentry": "012",
+        "memo": "嘉实基金",
+        "dict_prompt": "嘉实基金",
+        "dict_entry": "1003"
+    },
+    {
+        "branch_no": "0",
+        "subentry": "013",
+        "memo": "宝盈基金",
+        "dict_prompt": "宝盈基金",
+        "dict_entry": "1003"
+    },
+    {
+        "branch_no": "0",
+        "subentry": "014",
+        "memo": "南方基金",
+        "dict_prompt": "南方基金",
+        "dict_entry": "1003"
+    },
+    {
+        "branch_no": "0",
+        "subentry": "015",
+        "memo": "银华基金",
+        "dict_prompt": "银华基金",
+        "dict_entry": "1003"
+    },
+    {
+        "branch_no": "0",
+        "subentry": "016",
+        "memo": "国投瑞银基金",
+        "dict_prompt": "国投瑞银基金",
+        "dict_entry": "1003"
+    },
+    {
+        "branch_no": "0",
+        "subentry": "017",
+        "memo": "中原英石",
+        "dict_prompt": "中原英石",
+        "dict_entry": "1003"
+    },
+    {
+        "branch_no": "0",
+        "subentry": "018",
+        "memo": "银河基金",
+        "dict_prompt": "银河基金",
+        "dict_entry": "1003"
+    },
+    {
+        "branch_no": "0",
+        "subentry": "019",
+        "memo": "招商基金",
+        "dict_prompt": "招商基金",
+        "dict_entry": "1003"
+    },
+    {
+        "branch_no": "0",
+        "subentry": "020",
+        "memo": "泰达荷银基金",
+        "dict_prompt": "泰达荷银基金",
+        "dict_entry": "1003"
+    },
+    {
+        "branch_no": "0",
+        "subentry": "021",
+        "memo": "金鹰基金",
+        "dict_prompt": "金鹰基金",
+        "dict_entry": "1003"
+    },
+    {
+        "branch_no": "0",
+        "subentry": "023",
+        "memo": "华宝兴业",
+        "dict_prompt": "华宝兴业",
+        "dict_entry": "1003"
+    },
+    {
+        "branch_no": "0",
+        "subentry": "024",
+        "memo": "长城基金",
+        "dict_prompt": "长城基金",
+        "dict_entry": "1003"
+    },
+    {
+        "branch_no": "0",
+        "subentry": "025",
+        "memo": "泰信基金",
+        "dict_prompt": "泰信基金",
+        "dict_entry": "1003"
+    },
+    {
+        "branch_no": "0",
+        "subentry": "026",
+        "memo": "国联安基金",
+        "dict_prompt": "国联安基金",
+        "dict_entry": "1003"
+    },
+    {
+        "branch_no": "0",
+        "subentry": "027",
+        "memo": "天治基金",
+        "dict_prompt": "天治基金",
+        "dict_entry": "1003"
+    },
+    {
+        "branch_no": "0",
+        "subentry": "028",
+        "memo": "摩根士丹利华鑫基",
+        "dict_prompt": "摩根士丹利华鑫基",
+        "dict_entry": "1003"
+    },
+    {
+        "branch_no": "0",
+        "subentry": "029",
+        "memo": "景顺长城",
+        "dict_prompt": "景顺长城",
+        "dict_entry": "1003"
+    },
+    {
+        "branch_no": "0",
+        "subentry": "030",
+        "memo": "中信基金",
+        "dict_prompt": "中信基金",
+        "dict_entry": "1003"
+    },
+    {
+        "branch_no": "0",
+        "subentry": "032",
+        "memo": "兴业基金",
+        "dict_prompt": "兴业基金",
+        "dict_entry": "1003"
+    },
+    {
+        "branch_no": "0",
+        "subentry": "033",
+        "memo": "申万菱信基金",
+        "dict_prompt": "申万菱信基金",
+        "dict_entry": "1003"
+    },
+    {
+        "branch_no": "0",
+        "subentry": "034",
+        "memo": "广发基金",
+        "dict_prompt": "广发基金",
+        "dict_entry": "1003"
+    },
+    {
+        "branch_no": "0",
+        "subentry": "035",
+        "memo": "诺安基金",
+        "dict_prompt": "诺安基金",
+        "dict_entry": "1003"
+    },
+    {
+        "branch_no": "0",
+        "subentry": "036",
+        "memo": "光大保德信",
+        "dict_prompt": "光大保德信",
+        "dict_entry": "1003"
+    },
+    {
+        "branch_no": "0",
+        "subentry": "037",
+        "memo": "天弘基金",
+        "dict_prompt": "天弘基金",
+        "dict_entry": "1003"
+    },
+    {
+        "branch_no": "0",
+        "subentry": "038",
+        "memo": "上投摩根富林明",
+        "dict_prompt": "上投摩根富林明",
+        "dict_entry": "1003"
+    },
+    {
+        "branch_no": "0",
+        "subentry": "039",
+        "memo": "华富基金",
+        "dict_prompt": "华富基金",
+        "dict_entry": "1003"
+    },
+    {
+        "branch_no": "0",
+        "subentry": "040",
+        "memo": "东方基金",
+        "dict_prompt": "东方基金",
+        "dict_entry": "1003"
+    },
+    {
+        "branch_no": "0",
+        "subentry": "041",
+        "memo": "中海基金",
+        "dict_prompt": "中海基金",
+        "dict_entry": "1003"
+    },
+    {
+        "branch_no": "0",
+        "subentry": "042",
+        "memo": "汇添富基金",
+        "dict_prompt": "汇添富基金",
+        "dict_entry": "1003"
+    },
+    {
+        "branch_no": "0",
+        "subentry": "043",
+        "memo": "海富通基金",
+        "dict_prompt": "海富通基金",
+        "dict_entry": "1003"
+    },
+    {
+        "branch_no": "0",
+        "subentry": "045",
+        "memo": "东吴基金",
+        "dict_prompt": "东吴基金",
+        "dict_entry": "1003"
+    },
+    {
+        "branch_no": "0",
+        "subentry": "046",
+        "memo": "国海富兰克林",
+        "dict_prompt": "国海富兰克林",
+        "dict_entry": "1003"
+    },
+    {
+        "branch_no": "0",
+        "subentry": "047",
+        "memo": "工银瑞信基金管理",
+        "dict_prompt": "工银瑞信基金管理",
+        "dict_entry": "1003"
+    },
+    {
+        "branch_no": "0",
+        "subentry": "048",
+        "memo": "建信基金管理有限",
+        "dict_prompt": "建信基金管理有限",
+        "dict_entry": "1003"
+    },
+    {
+        "branch_no": "0",
+        "subentry": "049",
+        "memo": "汇丰晋信基金",
+        "dict_prompt": "汇丰晋信基金",
+        "dict_entry": "1003"
+    },
+    {
+        "branch_no": "0",
+        "subentry": "050",
+        "memo": "华泰柏瑞",
+        "dict_prompt": "华泰柏瑞",
+        "dict_entry": "1003"
+    },
+    {
+        "branch_no": "0",
+        "subentry": "054",
+        "memo": "中邮创业基金",
+        "dict_prompt": "中邮创业基金",
+        "dict_entry": "1003"
+    },
+    {
+        "branch_no": "0",
+        "subentry": "055",
+        "memo": "信诚基金",
+        "dict_prompt": "信诚基金",
+        "dict_entry": "1003"
+    },
+    {
+        "branch_no": "0",
+        "subentry": "056",
+        "memo": "益民基金",
+        "dict_prompt": "益民基金",
+        "dict_entry": "1003"
+    },
+    {
+        "branch_no": "0",
+        "subentry": "057",
+        "memo": "诺德基金",
+        "dict_prompt": "诺德基金",
+        "dict_entry": "1003"
+    },
+    {
+        "branch_no": "0",
+        "subentry": "061",
+        "memo": "信达澳银基金",
+        "dict_prompt": "信达澳银基金",
+        "dict_entry": "1003"
+    },
+    {
+        "branch_no": "0",
+        "subentry": "062",
+        "memo": "金元惠理",
+        "dict_prompt": "金元惠理",
+        "dict_entry": "1003"
+    },
+    {
+        "branch_no": "0",
+        "subentry": "063",
+        "memo": "华商基金",
+        "dict_prompt": "华商基金",
+        "dict_entry": "1003"
+    },
+    {
+        "branch_no": "0",
+        "subentry": "065",
+        "memo": "英大基金",
+        "dict_prompt": "英大基金",
+        "dict_entry": "1003"
+    },
+    {
+        "branch_no": "0",
+        "subentry": "066",
+        "memo": "农银汇理基金公司",
+        "dict_prompt": "农银汇理基金公司",
+        "dict_entry": "1003"
+    },
+    {
+        "branch_no": "0",
+        "subentry": "067",
+        "memo": "纽银梅隆西部基金",
+        "dict_prompt": "纽银梅隆西部基金",
+        "dict_entry": "1003"
+    },
+    {
+        "branch_no": "0",
+        "subentry": "068",
+        "memo": "浙商基金",
+        "dict_prompt": "浙商基金",
+        "dict_entry": "1003"
+    },
+    {
+        "branch_no": "0",
+        "subentry": "069",
+        "memo": "民生加银基金管理",
+        "dict_prompt": "民生加银基金管理",
+        "dict_entry": "1003"
+    },
+    {
+        "branch_no": "0",
+        "subentry": "070",
+        "memo": "平安大华",
+        "dict_prompt": "平安大华",
+        "dict_entry": "1003"
+    },
+    {
+        "branch_no": "0",
+        "subentry": "071",
+        "memo": "富安达基金",
+        "dict_prompt": "富安达基金",
+        "dict_entry": "1003"
+    },
+    {
+        "branch_no": "0",
+        "subentry": "073",
+        "memo": "方正富邦",
+        "dict_prompt": "方正富邦",
+        "dict_entry": "1003"
+    },
+    {
+        "branch_no": "0",
+        "subentry": "074",
+        "memo": "长安基金",
+        "dict_prompt": "长安基金",
+        "dict_entry": "1003"
+    },
+    {
+        "branch_no": "0",
+        "subentry": "075",
+        "memo": "安信基金",
+        "dict_prompt": "安信基金",
+        "dict_entry": "1003"
+    },
+    {
+        "branch_no": "0",
+        "subentry": "076",
+        "memo": "国金通用",
+        "dict_prompt": "国金通用",
+        "dict_entry": "1003"
+    },
+    {
+        "branch_no": "0",
+        "subentry": "077",
+        "memo": "德邦基金",
+        "dict_prompt": "德邦基金",
+        "dict_entry": "1003"
+    },
+    {
+        "branch_no": "0",
+        "subentry": "079",
+        "memo": "华宸未来",
+        "dict_prompt": "华宸未来",
+        "dict_entry": "1003"
+    },
+    {
+        "branch_no": "0",
+        "subentry": "98",
+        "memo": "中登98公司",
+        "dict_prompt": "中登98公司",
+        "dict_entry": "1003"
+    },
+    {
+        "branch_no": "0",
+        "subentry": "99",
+        "memo": "中登99公司",
+        "dict_prompt": "中登99公司",
+        "dict_entry": "1003"
+    }],
+    "error_info": ""
+}

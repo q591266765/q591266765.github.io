@@ -5,7 +5,9 @@ define(['GS'], function (GS) {
         depository    : 'depository',
         depositoryAdd : 'depositoryAdd',
 		fund          : 'fund',
-		state         : 'state'
+		fundstate     : 'fundstate',
+		protocal      : 'protocal',
+		protocalstate : 'protocalstate'
 	};
 
 	/**
