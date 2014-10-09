@@ -1,0 +1,42 @@
+<div class="navbar">
+    <div class="navbar-inner">
+        <div class="left">
+            <a href="#" class="link icon-only back">
+            <i class="icon icon-back"></i>
+            </a>
+        </div>
+        <div class="center sliding">开放式基金</div>
+    </div>
+</div>
+<div class="pages navbar-through">
+    <div data-page="state" class="page">
+        <div id="state" class="page-content state-page">
+            <div class="content-block">
+                <div class="content-block-hint eventclose"> <i class="iconfont icon-warn plaint"></i><div class="text-hint">亲爱的客户，您申请开通开放式基金已提交，将于2个工作日内为您开通，请保持手机畅通<i class="iconfont icon-error icon-close"></i></div></div>
+                
+                <h2>您已开通下列基金账户</h2> 
+                <!-- 基金列表模板 -->
+                <script id="stateTemplate" type="text/template">
+            <ul>
+                {{#each stateList}}
+                <li>                   
+                     <div class="list-top">
+                       <div class="state-date">2013-08-12</div>{{dict_prompt}}
+					  </div> 
+                     <div class="list-bottom">
+					 <div class="list-bottom-right"><a href="page/business/open-ended-fund/agreement-look.html">查看协议</a> <a href="#" class="button-xh">销户</a></div>{{subentry}}
+					 </div>                          
+                </li>
+                {{/each}}
+            </ul>
+            </script>
+                <!-- 基金列表容器 -->
+                <div class="state">
+                </div>
+               
+                    <a class="button button-big button-fill sign-protocal-button" href="#">开通</a>
+              
+            </div>
+        </div>
+    </div>
+</div>

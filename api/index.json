@@ -1,0 +1,65 @@
+{
+  "templatePath": "page/business",
+  "businessList": [
+    {
+      "name": "account",
+      "fullName": "security-account",
+      "label": "证券账户"
+    },
+    {
+      "name": "margin",
+      "fullName": "securities-margin-trading",
+      "label": "融资融券"
+    },
+    {
+      "name": "loan",
+      "fullName": "light-loan-transaction",
+      "label": "小贷通"
+    },
+    {
+      "name": "loan",
+      "fullName": "asset-management-product",
+      "label": "资管产品"
+    },
+    {
+      "name": "depository",
+      "fullName": "third-party-depository",
+      "label": "三方存管"
+    },
+    {
+      "name": "open-fund",
+      "fullName": "open-ended-fund",
+      "label": "开放式基金"
+    },
+    {
+      "name": "evaluation",
+      "fullName": "risk-evaluation",
+      "label": "风险测评"
+    },
+    {
+      "name": "agency",
+      "fullName": "ways-of-agency-transaction",
+      "label": "委托方式"
+    },
+    {
+      "name": "protocal",
+      "fullName": "asset-management-protocal",
+      "label": "资管协议"
+    },
+    {
+      "name": "price-repo",
+      "fullName": "price-repurchase",
+      "label": "报价回购"
+    },
+    {
+      "name": "reverse-repo",
+      "fullName": "national-debt-reverse-repurchase",
+      "label": "国债逆回购"
+    },
+    {
+      "name": "otc",
+      "fullName": "otc-business",
+      "label": "OTC业务"
+    }
+  ]
+}

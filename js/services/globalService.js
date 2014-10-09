@@ -1,4 +1,4 @@
-define(['services/openTypeService'], function (OTS) {
+define([], function () {
 	var $CONFIG = null;
 	init();
 
@@ -46,8 +46,6 @@ define(['services/openTypeService'], function (OTS) {
 		}
 	}
 
-	var startPage = OTS.setStartPage();
-
 	function logout() {
 		khApp.confirm('您确定要退出登录吗？', function () {
 			var currentPage = $$('.page-on-center').data('page');
@@ -77,6 +75,26 @@ define(['services/openTypeService'], function (OTS) {
 		});
 	}
 
+    function loadInitPage(url, view) {
+        $$.ajax({
+            type: 'GET',
+            url: url,
+            success: function (data) {
+                // data = 'please login';
+				
+                if (data === 'please login') {
+					
+                    wtApp.loginScreen();
+                } else {
+                    view.loadContent({
+                        content: data,
+                        animatePages: false
+                    });
+                }
+            }
+        });
+    }
+
 	return {
 		getSid: getSid,
 		getCurrentUser: getCurrentUser,
@@ -85,6 +103,6 @@ define(['services/openTypeService'], function (OTS) {
 		isLogin: isLogin,
 		logout: logout,
 		checkUpdate: checkUpdate,
-		startPage: startPage
+        loadInitPage: loadInitPage
 	};
 });

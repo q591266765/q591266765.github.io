@@ -1,70 +1,23 @@
-define(['views/certView', 'GS'], function (View, GS) {
+define(['views/certView'], function (View) {
 
-	var bindings = [{
-		element: '#logout',
-		event: 'click',
-		handler: GS.logout
-	}, {
-		element: '.cert-request-button',
-		event: 'click',
-		handler: requestCert
-	}];
+    var bindings = [{
+        element: '.apply-button',
+        event: 'click',
+        handler: apply
+    }];
 
-	var afterBindings = [{
-		element: '.cert-download-button',
-		event: 'click',
-		handler: doneCallback
-	}, {
-		element: '.cert-retry-button',
-		event: 'click',
-		handler: requestCert
-	}];
+    function init() {
+        View.render({
+            bindings: bindings
+        });
+    }
 
-	function init() {
-		View.render({
-			bindings: bindings
-		});
-		setTimeout(View.showAuditAfter, 1500);
-	}
+    function apply() {
+        var title = $$(this).data('title');
+        certView.loadPage('cert/apply.html?title=' + title);
+    }
 
-	function requestCert() {
-		View.showDownloading();
-		// khApp.showIndicator();
-		setTimeout(function () {
-			var xhr = $$.ajax({
-				url: 'api/cert.json',
-				type: 'POST',
-				success: function (data) {
-					data = JSON.parse(data);
-					if (data.errorNo === 0) {
-						View.renderPopup({
-							model: data.model,
-							bindings: afterBindings
-						});
-						khApp.popup('.popup');
-					}
-					// khApp.hideIndicator();
-				}
-			});
-
-			// 下载进度
-			xhr.onprogress = function (e) {
-				if (e.lengthComputable) {
-					var percentComplete = (e.loaded / e.total) * 100;
-					console.log(percentComplete);
-					$$('progress').val(percentComplete);
-				}
-			};
-		}, 1500);
-	}
-
-	function doneCallback() {
-		View.showAuditAfter();
-		khApp.closeModal();
-		mainView.loadPage('account.html');
-	}
-
-	return {
-		init: init
-	};
+    return {
+        init: init
+    };
 });

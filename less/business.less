@@ -1,0 +1,81 @@
+.img(@image) {
+  & .business-icon {
+    background-image: url("../img/business/@{image}.png");
+
+    @media all and (-webkit-min-device-pixel-ratio : 1.5),
+        all and (-o-min-device-pixel-ratio: 3/2),
+        all and (min--moz-device-pixel-ratio: 1.5),
+        all and (min-device-pixel-ratio: 1.5) {
+          background-image: url("../img/business/@{image}@2x.png");
+          background-size: 50px 50px;
+        }
+  }
+}
+
+.bcolor(@color) {
+  & .business-icon {
+    background-color: @color;
+  }
+}
+
+.img-mixin(@name, @color:#fb8f48) {
+  .business-@{name} {
+    .img(@name);
+    .bcolor(@color);
+  }
+}
+
+.img-mixin(e('cyb'));                   // 创业板
+.img-mixin(e('account'));               // 证券账户
+.img-mixin(e('margin'), #79bdef);       // 融资融券
+.img-mixin(e('loan'), #fbc648);         // 小贷通
+.img-mixin(e('product'), #f1948a);      // 资管产品
+.img-mixin(e('depository'), #79bdef);   // 三方存管
+.img-mixin(e('open-fund'));             // 开放式基金
+.img-mixin(e('evaluation'), #f1948a);   // 风险测评
+.img-mixin(e('agency'), #fbc648);       // 委托方世
+.img-mixin(e('protocal'));              // 资管协议
+.img-mixin(e('price-repo'), #79bdef);   // 报价回购
+.img-mixin(e('reverse-repo'), #fbc648); // 国债逆回购
+.img-mixin(e('otc'), #f1948a);          // OTC 业务
+
+.business {
+  ul {
+    .flexbox();
+    .align-items(center);
+    -webkit-flex-flow: row wrap;
+    margin: 24px 0;
+    padding: 0 18px;
+    list-style: none;
+  }
+  li {
+    .size(70px, 80px);
+    margin: 5px 0;
+    text-align: center;
+    > a {
+      display: block;
+    }
+  }
+  .business-icon {
+    .size(50px, 50px);
+    margin: 0 auto;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+  }
+  .business-label {
+    margin-top: 5px;
+    font-size: 13px;
+    color: #40464d;
+  }
+}
+
+.fix-center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  .preloader {
+    .size(30px, 30px);
+  }
+}

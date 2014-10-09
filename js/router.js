@@ -1,28 +1,11 @@
 define(['GS'], function (GS) {
 
 	var hash = {
-		index       : 'index',
-		guide       : 'guide',
-		login       : 'login',
-		identity    : 'identity',
-		collect     : 'collect',
-		profile     : 'profile',
-		department  : 'department',
-		departments : 'departments',
-		video       : 'video',
-		appoint     : 'appoint',
-		cert        : 'cert',
-		account     : 'account',
-		risk        : 'risk',
-		password    : 'password',
-		depository  : 'depository',
-		review      : 'review',
-		audit       : 'audit',
-		protocal    : 'protocal',
-		reform      : 'reform',
-		prov        : 'prov',
-		city        : 'city',
-		deps        : 'deps'
+        index         : 'index',
+        depository    : 'depository',
+        depositoryAdd : 'depositoryAdd',
+		fund          : 'fund',
+		state         : 'state'
 	};
 
 	/**
@@ -34,16 +17,27 @@ define(['GS'], function (GS) {
 			load(page.name, page.query);
 		});
 
-		$$('.logout').on('click', GS.logout);
-		$$('.version').on('click', GS.checkUpdate);
+		// $$('.logout').on('click', GS.logout);
+		// $$('.version').on('click', GS.checkUpdate);
+        $$('#moneyView').on('show', function () {
+            GS.loadInitPage('page/money/index.html', moneyView);
+        });
 
-		if (!GS.isLogin()) {
-			// mainView.loadPage('login.html');
-			mainView.loadPage(GS.startPage, false);
-		} else {
-			var currentUser = GS.getCurrentUser();
-			mainView.loadPage(currentUser.node + '.html');
-		}
+        $$('#certView').on('show', function () {
+            GS.loadInitPage('page/cert/index.html', certView);
+        });
+
+        $$('.login-screen').on('close', function () {
+            wtApp.showTab('#mainView');
+        });
+
+		// if (!GS.isLogin()) {
+		// 	// mainView.loadPage('login.html');
+		// 	mainView.loadPage(GS.startPage, false);
+		// } else {
+		// 	var currentUser = GS.getCurrentUser();
+		// 	mainView.loadPage(currentUser.node + '.html');
+		// }
 	}
 
 	/**

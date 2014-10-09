@@ -1,14 +1,139 @@
 @import 'iconfont';
 @import 'framework7/framework7';
-@import 'theme';
 @import 'global';
-@import 'pages/guide';
-@import 'pages/login';
-@import 'pages/collect';
-@import 'pages/cert';
-@import 'pages/profile';
-@import 'pages/video';
-@import 'pages/department';
-@import 'pages/risk';
-@import 'pages/audit';
-@import 'pages/faq';
+@import 'business';
+@import 'business/account';
+
+.slider-container {
+  height: 170px;
+  background-color: #0ff;
+}
+
+.tabbar-labels span.tabbar-label {
+  font-size: 12px;
+}
+
+.toolbar .iconfont {
+  font-size: 35px;
+  line-height: 25px;
+}
+
+
+
+.figure-statistics {
+  margin-bottom: 40px;
+}
+
+.figure-content {
+  .flexbox();
+  .justify-content(space-between);
+  height: 20px;
+  line-height: 20px;
+  margin-top: 20px;
+  color: #828282;
+}
+
+.colorful-block(@bgcolor) {
+  .size(30px, 20px);
+  vertical-align: middle;
+  background: @bgcolor;
+}
+
+.figure-group {
+  .flexbox();
+  .align-items(center);
+  .cash-block,
+  .stock-block,
+  .zijintong-block {
+    margin-right: 5px;
+  }
+}
+
+.cash-block {
+  .colorful-block(#ff6c00);
+}
+
+.stock-block {
+  .colorful-block(#ffa200);
+}
+
+.zijintong-block {
+  .colorful-block(#ffd200);
+}
+
+.in {
+  color: #fe0102;
+}
+
+.out {
+  color: #68b000;
+}
+
+.cert-block {
+  .item-content {
+    padding-left: 30px;
+  }
+  .item-inner {
+    display: block;
+    padding-right: 30px;
+  }
+  .item-title {
+    height: 36px;
+    padding-bottom: 5px;
+    line-height: 36px;
+    font-size: 17px;
+    border-bottom: 3px solid #f26c4f;
+    &:after {
+      content: "";
+      position: absolute;
+      bottom: 1px;
+      display: block;
+      width: 100%;
+      border-bottom: 1px solid #f26c4f;
+    }
+  }
+  .item-description {
+    font-size: 14px;
+    padding: 10px 0;
+    color: #4c4c4c;
+    border-bottom: 1px solid #ccc;
+  }
+  .item-operate {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-align: right;
+    font-size: 0;
+    .button {
+      display: inline-block;
+      padding: 0 20px;
+      line-height: 29px;
+    }
+  }
+  .iconfont {
+    font-size: 38px;
+    line-height: 36px;
+    color: #af0000;
+    vertical-align: -3px;
+  }
+}
+
+.indent-title {
+  margin: 18px 15px 10px;
+  font-size: 16px;
+  line-height: 20px;
+  color: #40464d;
+  &:before {
+    content: "";
+    display: inline-block;
+    vertical-align: -3px;
+    .size(4px, 16px);
+    background-color: #faa04b;
+    border-radius: 5px;
+  }
+}
+
+.content-block-labe {
+  padding: 10px 0;
+  font-size: 12px;
+  text-align: center;
+}

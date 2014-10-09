@@ -9,16 +9,12 @@
   background: #494949;
 }
 
-.list-block {
-  margin-top: 18px;
-}
-
 .list-block,
 .content-block {
-  margin-bottom: 18px;
+  margin: 18px 0;
 }
 
-.content-block-title + .list-block, .content-block-title + .content-block {
+.content-block-title + .list-block, .content-block-title + .content-block, .list-block + .list-block {
   margin-top: 15px;
 }
 
@@ -34,7 +30,9 @@
   border-color: #e5e5e3;
 }
 
-.list-block .item-title, .list-block .smart-select .item-after {
+.list-block .item-title,
+.list-block .item-after,
+.list-block .smart-select .item-after {
   font-size: 15px;
 }
 
@@ -92,6 +90,10 @@ i.icon-bars {
   font-size: 15px;
   white-space: normal;
   line-height: 20px;
+}
+
+.content-block {
+  font-size: 15px;
 }
 
 .searchbar.searchbar-active .searchbar-cancel {
